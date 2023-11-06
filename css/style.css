@@ -1,0 +1,201 @@
+.card-groups{
+    display: flex;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+
+}
+body{
+    background-color:#fff;
+
+}
+header{
+    background-color:black;
+    font-family: Montserrat;
+}
+
+.category-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.category-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.category-card h3 {
+    margin-top: 10px;
+}
+
+.category-card a {
+    display: block;
+    margin-top: 15px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.category{
+    margin-bottom: 1rem;;
+}
+.products {
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+.card{
+    padding: 0.5rem;
+    height: 410px;
+}
+.card-img-top {
+    max-width: 250px;
+    max-height: 250px;
+}
+.card-title {
+    font-size: 16px;
+}
+
+.card-text {
+    font-size: 14px;
+}  
+.smartphones{
+    padding: 1rem;
+}
+.card:hover{
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+}
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 0 10px 0 #000;
+    border-radius: 5px;
+}
+
+
+
+.laptops{
+    padding: 1rem;
+}
+.household{
+    padding: 1rem;
+}
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: large;
+    padding:3px;
+    font-family: Montserrat; 
+}
+
+
+
+
+
+
+
+
+
+/* Style for the accordion button */
+.accordion-button {
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s;
+}
+
+.accordion-button:hover {
+    background-color: #2980b9;
+}
+
+/* Style for the accordion content */
+.accordion-content {
+    display: none;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Style for the active (open) accordion button */
+.accordion-button.active {
+    background-color: #2980b9;
+}
+
+/* Style for the active (open) accordion content */
+.accordion-content.active {
+    display: block;
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+
+}
+.tab button {
+    background-color: inherit;
+    float:none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+.tab button:hover {
+    background-color: #ddd;
+}
+.tab button.active {
+    background-color: #ccc;
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.card a:hover{
+    border: 2px solid #3498db; 
+    transition: border-color 0.3s;
+
+}
+
+
+
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
